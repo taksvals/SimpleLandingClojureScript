@@ -1,0 +1,6 @@
+goog.provide('app.components.screens.key_features.core');
+app.components.screens.key_features.core.key_features = (function app$components$screens$key_features$core$key_features(){
+return new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"<>","<>",1280186386),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.awesome_features.core.awesome_features], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.jackpot.core.jackpot], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.jackpot_features.core.jackpot_features], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.integration.core.integration], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.advantages.core.advantages], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [app.components.screens.ultimate_features.core.ultimate_features], null)], null);
+});
+
+//# sourceMappingURL=app.components.screens.key_features.core.js.map

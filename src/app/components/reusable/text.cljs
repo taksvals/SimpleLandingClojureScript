@@ -1,7 +1,7 @@
 (ns app.components.reusable.text)
 
-(defn text [headingSize, heading, text, align]
+(defn text [{:keys [heading-size, heading, text, align]}]
   [:div.text-item
    [:div {:class align}
-    [:h1 {:class headingSize} heading]
+    [:h1 {:class heading-size} heading]
     [:p text]]])

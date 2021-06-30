@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-accessible-accordion": "^3.3.4",
+    "react-dom": "16.13.0",
+    "react-responsive-carousel": "^3.2.18"
   }
 }

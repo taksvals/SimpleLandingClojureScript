@@ -1,7 +1,7 @@
 (ns app.components.reusable.pricing-item
   (:require [app.components.reusable.btn-primary :refer [btn_primary]]))
 
-(defn pricing_item [price, btnText]
+(defn pricing_item [{:keys [price, btn-text]}]
   [:div.pricing-item
    [:div.pricing-item-heading
     [:p
@@ -16,5 +16,5 @@
      [:li "Blog Support Tools"]
      [:li "eCommerce Store"]]
     [btn_primary
-     btnText
-     "#"]]])
+     {:title btn-text
+      :href "#"}]]])
